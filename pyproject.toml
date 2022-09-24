@@ -12,7 +12,7 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "zeep"
+    "zeep~=4.1",
 ]
 
 [project.scripts]
@@ -20,8 +20,8 @@ debbugs = "debbugs.cli:main"
 
 [project.optional-dependencies]
 dev = [
-    "pytest",
-    "pytest-icdiff"
+    "pytest~=7.1",
+    "pytest-icdiff~=0.6",
 ]
 
 [tool.setuptools]
