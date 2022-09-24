@@ -11,7 +11,9 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "zeep"
+]
 
 [project.scripts]
 debbugs = "debbugs.cli:main"
